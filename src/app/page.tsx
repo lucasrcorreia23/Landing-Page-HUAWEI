@@ -69,7 +69,7 @@ export default function Home() {
   
   <div className="absolute inset-y-0 left-24 flex items-center">
     <a href="#">
-    <button className="rounded-xl bg-transparent border border-red-700 text-zinc-400 font-bold mx-auto p-4 text-red-700 hover:bg-red-700 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+    <button className="rounded-xl bg-transparent border border-red-700 font-bold mx-auto p-4 text-red-700 hover:bg-red-700 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
   Compre Agora
 </button>
 
@@ -90,7 +90,7 @@ export default function Home() {
   
   <div className="absolute inset-y-0 left-24 flex items-center">
   <a href="#">
-    <button className="rounded-xl bg-transparent border border-red-700 text-zinc-400 font-bold mx-auto p-4 text-red-700 hover:bg-red-700 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+    <button className="rounded-xl bg-transparent border border-red-700 font-bold mx-auto p-4 text-red-700 hover:bg-red-700 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
   Compre Agora
 </button>
 
