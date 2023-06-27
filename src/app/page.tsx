@@ -12,12 +12,12 @@ export default function Home() {
 
       <div className="h-8xl relative flex items-center justify-center text-center">
   <Image src="/watch-gt3-se.png" alt='Teste Banner' width={1920} height={440} />
-  <div className="absolute p-8 bg-slate-200 rounded-xl shadow-xl">
-    <h1 className="text-4xl pb-4 font-semibold">
+  <div className="absolute p-8 bg-slate-200 rounded-xl shadow-xl grid">
+    <h1 className="text-4xl pb-4 font-semibold  grid  ">
       HUAWEI Smartwatch GT 430
     </h1>
     <a href="#">
-      <button className="px-8 py-4 rounded-xl bg-transparent border border-red-700 font-bold text-red-700 hover:bg-red-700 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+      <button className="  px-8 py-4 rounded-xl bg-transparent border border-red-700 font-bold text-red-700 hover:bg-red-700 hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
         Compre Agora
       </button>
     </a>
