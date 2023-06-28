@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export function Footer () {
     return (
-<footer className="p-12 h-auto flex flex-col text-center bg-zinc-200  sm:flex-row  justify-between  border border-gray-300">
+<footer className="p-12 h-auto flex flex-col text-center bg-zinc-100  sm:flex-row  justify-between  border border-gray-300">
         <div className="py-4 justify-center items-center flex">
             <a href="#">
           <Image src="/prime8.svg" width={120} height={0} alt='Logotipo' />
