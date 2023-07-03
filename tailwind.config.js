@@ -18,6 +18,10 @@ module.exports = {
       },
     },
     extend: {
+      colors: {
+        'brand':'#ca6924',
+        'brand-bg':'#dfeedc'
+      },
       fontFamily: {
         'sans': ['Plus Jakarta Sans',],
       },
