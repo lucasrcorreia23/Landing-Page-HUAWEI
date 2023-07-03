@@ -1,12 +1,13 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/react';
+import '../../public/fonts/fonts.css';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Landing Page From Lucas',
-  description: 'All the things i never did',
+  title: 'Access Points Prime8',
+  description: 'Produtos da Prime8',
 }
 
 export default function RootLayout({
@@ -16,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br" className="scroll-smooth hover:scroll-auto">
-      <body className={inter.className}>{children}
+      <body >{children}
       <Analytics />
       </body>
     </html>
