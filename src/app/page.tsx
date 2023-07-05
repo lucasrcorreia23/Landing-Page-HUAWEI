@@ -13,7 +13,7 @@ export default function Home() {
 
         <section className=" h-auto relative flex items-center justify-center text-left w-full object-cover ">
 
-          <Image className="hidden md:block" src="/wifi6-advanced2.jpg" alt='Teste Banner' width={3820} height={440}  />
+          <Image className="hidden md:block" src="/wifi6-advanced2.jpg" alt='Teste Banner' width={3820} height={440} priority />
           <Image className="block md:hidden" src="/mobile/wlan-banner-wap-0611.jpg" alt='Teste Banner' width={750} height={790} />
 
           <div className=" text-sm absolute  rounded-xl shadow-sm grid mx-auto mb-12   ">
@@ -21,7 +21,7 @@ export default function Home() {
               What Is Wi-Fi 6 Advanced?
             </h1>
             <a href="#" className="flex justify-center md:justify-start">
-              <button className="  md:absolute md:m-auto md:block flex w-auto px-8 py-4 rounded-xl bg-transparent border border-brand font-bold text-brand hover:bg-brand hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+              <button className="  md:absolute md:m-auto md:block flex w-auto px-8 py-4 rounded-xl bg-transparent border border-white text-white md:border-brand font-bold md:text-brand hover:bg-brand hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
                 Compre Agora
               </button>
             </a>
@@ -58,7 +58,7 @@ export default function Home() {
                 <p className="text-sm mt-2 md:w-8/12 text-white md:text-gray-700 gap-4 w-8/12 top-0  mx-auto mb-8 ">
                   Velocidades ultrarrápidas da Huawei, mobilidade sempre ativa e rede auto-organizada contínua.
                 </p>
-                <a href="#" className=" mb-4 relative rounded-xl bg-transparent border border-brand font-bold p-4 text-brand hover:bg-brand hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                <a href="#" className=" mb-4 relative rounded-xl bg-transparent border md:border-brand border-white text-white font-bold p-4 md:text-brand hover:bg-brand hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                   Compre Agora
                 </a>
               </div>
@@ -91,7 +91,7 @@ export default function Home() {
               <p className="mt-4 mb-8 md:mb-4 text-left text-sm text-white md:text-gray-700 md:py-6 md:w-full md:text-sm">
                 Cloud X: Interactive Applications Streamed Over High-Speed Mobile Networks 5G
               </p>
-              <a href="#" className="text-left relative md:absolute md:right-auto  mt-8 md:mt-0 rounded-xl bg-transparent border border-brand font-bold px-8 py-4 text-brand hover:bg-brand hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+              <a href="#" className="text-left relative md:absolute md:right-auto  border-white text-white mt-8 md:mt-0 rounded-xl bg-transparent border md:border-brand font-bold px-8 py-4 md:text-brand hover:bg-brand hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                 Compre Agora
               </a>
             </div>
