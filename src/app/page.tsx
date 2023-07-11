@@ -34,8 +34,8 @@ export default function Home() {
           
           <div className="flex flex-row justify-start relative left-0 ">
               
-              <div className="mx-8  snap-center w-60 h-4/4 align-center my-auto bg-white rounded-xl shadow-lg overflow-hidden lg:justify-center">      
-                <img className="h-auto w-full object-cover   " src="/banner.webp" alt="Frete Grátis"/>
+              <div className=" mx-8  lg:hover:shadow-xl  duration-700  snap-center w-60 h-4/4 align-center my-auto bg-white rounded-xl  overflow-hidden lg:justify-center">      
+                <img className="h-auto w-full object-cover opacity-80    " src="/banner.webp" alt="Frete Grátis"/>
                 <div className="p-4 my-auto">
                   <div className="uppercase tracking-wide text-sm text-brand font-semibold">Frete Grátis</div>
                   <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Para todo o Brasil</a>
@@ -43,30 +43,30 @@ export default function Home() {
                 
                 </div>
               </div>
-              <div className="mx-8  snap-center w-60 h-4/4 align-center my-auto bg-white rounded-xl shadow-lg overflow-hidden lg:justify-center">      
-                <img className="h-auto w-full object-cover   " src="/banner.webp" alt="Frete Grátis"/>
+              <div className="mx-8  lg:hover:shadow-xl duration-700   snap-center w-60 h-4/4 align-center my-auto bg-white rounded-xl  overflow-hidden lg:justify-center">      
+                <img className="h-auto w-full object-cover opacity-80   " src="/banner.webp" alt="Frete Grátis"/>
                 <div className="p-4 my-auto">
-                  <div className="uppercase tracking-wide text-sm text-brand font-semibold">Frete Grátis</div>
-                  <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Para todo o Brasil</a>
-                  <p className="mt-2 text-slate-500 text-sm">Compras acima de 500 reais recebem automaticamente gratuidade nas entregas</p>
+                  <div className="uppercase tracking-wide text-sm text-brand font-semibold">Garantia: 24 meses</div>
+                  <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Estamos com você</a>
+                  <p className="mt-2 text-slate-500 text-sm">Não era o que você precisava? Conte conosco para te ajudar em até 24 meses.</p>
                 
                 </div>
               </div>
-              <div className="mx-8  snap-center w-60 h-4/4 align-center my-auto bg-white rounded-xl shadow-lg overflow-hidden lg:justify-center">      
-                <img className="h-auto w-full object-cover   " src="/banner.webp" alt="Frete Grátis"/>
+              <div className="mx-8  lg:hover:shadow-xl duration-700  snap-center w-60 h-4/4 align-center my-auto bg-white rounded-xl  overflow-hidden lg:justify-center">      
+                <img className="h-auto w-full object-cover opacity-80   " src="/banner.webp" alt="Frete Grátis"/>
                 <div className="p-4 my-auto">
-                  <div className="uppercase tracking-wide text-sm text-brand font-semibold">Frete Grátis</div>
-                  <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Para todo o Brasil</a>
-                  <p className="mt-2 text-slate-500 text-sm">Compras acima de 500 reais recebem automaticamente gratuidade nas entregas</p>
+                  <div className="uppercase tracking-wide text-sm text-brand font-semibold">Suporte on site</div>
+                  <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Implantação</a>
+                  <p className="mt-2 text-slate-500 text-sm">Profissionais certificados nas principais marcas a seu dispor</p>
                 
                 </div>
               </div>
-              <div className="mx-8  snap-center w-60 h-4/4 align-center my-auto bg-white rounded-xl shadow-lg overflow-hidden lg:justify-center">      
-                <img className="h-auto w-full object-cover   " src="/banner.webp" alt="Frete Grátis"/>
+              <div className="mx-8  lg:hover:shadow-xl duration-700 snap-center w-60 h-4/4 align-center my-auto bg-white rounded-xl  overflow-hidden lg:justify-center">      
+                <img className="h-auto w-full object-cover opacity-80   " src="/banner.webp" alt="Frete Grátis"/>
                 <div className="p-4 my-auto">
-                  <div className="uppercase tracking-wide text-sm text-brand font-semibold">Frete Grátis</div>
-                  <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Para todo o Brasil</a>
-                  <p className="mt-2 text-slate-500 text-sm">Compras acima de 500 reais recebem automaticamente gratuidade nas entregas</p>
+                  <div className="uppercase tracking-wide text-sm text-brand font-semibold">Assistência pós venda</div>
+                  <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Arquitetos de Solução</a>
+                  <p className="mt-2 text-slate-500 text-sm">Equipe de arquitetos pronto para apoiar em seu projeto</p>
                 
                 </div>
               </div>
@@ -137,7 +137,7 @@ export default function Home() {
           <Image className="block lg:hidden" src="/mobile/wlan-banner-wap-0611.jpg" alt='Teste Banner' width={750} height={790} />
 
           <div className="absolute lg:right-1/2 lg:w-4/12 w-10/12 text-left lg:text-left text-zinc-950 flex flex-col justify-center lg: mb-32">
-            <div className="container">
+            <div className="container pl-10 pt-8 lg:p-0">
               <h3 className="text-2xl text-left lg:text-3xl font-bold text-white lg:text-gray-700 lg:leading-16">
                 Huawei and ABI Release 5G Digital Airport White Paper
               </h3>
