@@ -22,7 +22,7 @@ export default function Home() {
               What Is Wi-Fi 6 Advanced?
             </h1>
             <a href="#" className="flex justify-center lg:justify-start">
-              <button className="  lg:absolute lg:m-auto lg:block flex w-auto px-8 py-4 rounded-xl bg-transparent border border-white text-white lg:border-brand font-bold lg:text-brand hover:bg-brand hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+              <button className=" lg:w-1/4 lg:absolute lg:m-auto lg:block flex w-auto px-8 py-4 rounded-xl bg-transparent border border-white text-white lg:border-brand font-bold lg:text-brand hover:bg-brand hover:text-white transition duration-500 ease-in-out transform  hover:scale-105">
                 Compre Agora
               </button>
             </a>
@@ -48,7 +48,7 @@ export default function Home() {
                 <div className="p-4 my-auto">
                   <div className="uppercase tracking-wide text-sm text-brand font-semibold">Garantia: 24 meses</div>
                   <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Estamos com você</a>
-                  <p className="mt-2 text-slate-500 text-sm">Não era o que você precisava? Conte conosco para te ajudar em até 24 meses.</p>
+                  <p className="mt-2 text-slate-500 text-sm">Não era o que você precisava? Conte conosco para te ajudar em até 24 meses</p>
                 
                 </div>
               </div>
@@ -57,7 +57,7 @@ export default function Home() {
                 <div className="p-4 my-auto">
                   <div className="uppercase tracking-wide text-sm text-brand font-semibold">Suporte on site</div>
                   <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Implantação</a>
-                  <p className="mt-2 text-slate-500 text-sm">Profissionais certificados nas principais marcas a seu dispor</p>
+                  <p className="mt-2 text-slate-500 text-sm">Profissionais certificados nas principais vertentes de TIC a seu dispor</p>
                 
                 </div>
               </div>
@@ -66,7 +66,7 @@ export default function Home() {
                 <div className="p-4 my-auto">
                   <div className="uppercase tracking-wide text-sm text-brand font-semibold">Assistência pós venda</div>
                   <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Arquitetos de Solução</a>
-                  <p className="mt-2 text-slate-500 text-sm">Equipe de arquitetos pronto para apoiar em seu projeto</p>
+                  <p className="mt-2 text-slate-500 text-sm">Equipe com arquitetos de soluções hard-end prontos para apoiar em seu projeto</p>
                 
                 </div>
               </div>
@@ -95,7 +95,7 @@ export default function Home() {
             />
             <Image className="block lg:hidden" src="/mobile/wlan-banner-wap-0611.jpg" alt='Teste Banner' width={750} height={790} />
 
-            <div className=" text-zinc-950 absolute p-0 text-center top-8 flex flex-col m-auto justify-center item  mb-12 lg:mx-0 lg:top-1/4">
+            <div className=" text-zinc-950 absolute p-0 text-center top-8 flex flex-col m-auto justify-center item w-100 lg:w-auto  mb-12 lg:mx-0 lg:top-1/4">
               <div className="container">
                 <h3 className="text-6xl font-bold text-white lg:text-gray-700 lg:text-9xl  ">
                   WLAN
@@ -103,7 +103,7 @@ export default function Home() {
                 <p className="text-sm mt-2 lg:w-8/12 text-white lg:text-gray-700 gap-4 w-8/12 top-0  mx-auto mb-8 ">
                   Velocidades ultrarrápidas da Huawei, mobilidade sempre ativa e rede auto-organizada contínua.
                 </p>
-                <a href="#" className=" mb-4 relative rounded-xl bg-transparent border lg:border-brand border-white text-white font-bold p-4 lg:text-brand hover:bg-brand hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                <a href="#" className=" relative text-center m-auto lg:mx-auto w-1/2 justify-center  lg:m-auto lg:block flex  px-8 py-4 rounded-xl bg-transparent border border-white text-white lg:border-brand font-bold lg:text-brand hover:bg-brand hover:text-white transition duration-500 ease-in-out transform  hover:scale-105">
                   Compre Agora
                 </a>
               </div>
