@@ -23,7 +23,7 @@ export default function Home() {
             </h1>
             <a href="#" className="flex justify-center lg:justify-start">
               <button className=" lg:w-1/4 lg:absolute lg:m-auto lg:block flex w-auto px-8 py-4 rounded-xl bg-transparent border border-white text-white lg:border-brand font-bold lg:text-brand hover:bg-brand hover:text-white transition duration-500 ease-in-out transform  hover:scale-105">
-                Compre Agora
+                Compre agora
               </button>
             </a>
           </div>
@@ -104,7 +104,7 @@ export default function Home() {
                   Velocidades ultrarrápidas da Huawei, mobilidade sempre ativa e rede auto-organizada contínua.
                 </p>
                 <a href="#" className=" relative text-center m-auto lg:mx-auto w-1/2 justify-center  lg:m-auto lg:block flex  px-8 py-4 rounded-xl bg-transparent border border-white text-white lg:border-brand font-bold lg:text-brand hover:bg-brand hover:text-white transition duration-500 ease-in-out transform  hover:scale-105">
-                  Compre Agora
+                  Compre agora
                 </a>
               </div>
             </div>
@@ -145,7 +145,7 @@ export default function Home() {
                 Cloud X: Interactive Applications Streamed Over High-Speed Mobile Networks 5G
               </p>
               <a href="#" className="text-left relative lg:absolute lg:right-auto  border-white text-white mt-8 lg:mt-0 rounded-xl bg-transparent border lg:border-brand font-bold px-8 py-4 lg:text-brand hover:bg-brand hover:text-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                Compre Agora
+                Compre agora
               </a>
             </div>
           </div>
