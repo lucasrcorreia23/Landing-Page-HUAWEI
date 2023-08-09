@@ -1,8 +1,9 @@
 import Image from 'next/image'
-import { Home as Homeicon, Search, Contact2 } from 'lucide-react';
+
 import { Menu, } from '@/components/Menu';
 import { Footer } from '@/components/Footer';
-import { Features } from '@/components/Features';
+
+
 
 export default function Home() {
   return (
